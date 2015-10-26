@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/agenda"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/NombreApellido"
+        android:background="#e9e5e5"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/Email"
+        android:inputType="textWebEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EMail"
+        android:textSize="25sp"
+        android:background="#fff"
+        />
+
+    <EditText
+        android:id="@+id/Edad"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edad"
+     android:background="#e9e5e5"
+        android:textSize="25sp"/>
+
+
+    <EditText
+        android:id="@+id/Celular"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Celular"
+        android:textSize="25sp"
+        android:background="#fff"/>
+
+    <EditText
+        android:id="@+id/Telefono"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Telefono"
+        android:textSize="25sp"
+        android:background="#e9e5e5"/>
+
+    <Spinner
+        android:id="@+id/grupos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/grupos"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="MostrarDatos"
+        android:text="@string/bt_guardar" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grupos">
+        <item>Grupo 1</item>
+        <item>Grupo 2</item>
+        <item>Grupo 3</item>
+        <item>Grupo 4</item>
+        <item>Grupo 5</item>
+        <item>Grupo 6</item>
+    </string-array>
+        </resources>
+
